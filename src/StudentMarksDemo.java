@@ -16,6 +16,16 @@ public class StudentMarksDemo {
         boolean find = studentMarks.containsKey(003);
         System.out.println(find);
 
+        studentMarks.put(003, 92);
+        System.out.println(studentMarks);
+
+        studentMarks.remove(004);
+        System.out.println(studentMarks);
+
+        System.out.println(studentMarks.size());
+
+
+
 
 
 
