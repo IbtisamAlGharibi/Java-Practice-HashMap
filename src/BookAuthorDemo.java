@@ -24,6 +24,7 @@ public class BookAuthorDemo {
         System.out.println(check);
 
 
+        System.out.println(books.size());
 
 
 
