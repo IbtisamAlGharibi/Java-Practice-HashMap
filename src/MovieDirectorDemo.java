@@ -12,5 +12,17 @@ public class MovieDirectorDemo {
         movieNames.put("The Golden Rose", "Rosaline");
         System.out.println(movieNames);
 
+        String find = movieNames.get("Matilda");
+        System.out.println(find);
+
+        boolean check = movieNames.containsKey("Harry Potter");
+        System.out.println(check);
+
+        movieNames.put("The giver", "Jimi");
+        System.out.println(movieNames);
+
+        movieNames.remove("The giver");
+        System.out.println(check);
+
     }
 }
