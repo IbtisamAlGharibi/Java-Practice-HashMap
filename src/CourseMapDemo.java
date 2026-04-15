@@ -24,5 +24,8 @@ public class CourseMapDemo {
 
         courseName.remove("ab004");
         System.out.println(courseName);
-}}
+
+        System.out.println(courseName.size());
+
+    }}
 
