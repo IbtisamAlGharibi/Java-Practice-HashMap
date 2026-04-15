@@ -12,6 +12,17 @@ public class CourseMapDemo {
         courseName.put("ab005", "C++");
         System.out.println(courseName);
 
+        String find = courseName.get("ab001");
+        System.out.println(find);
 
+        boolean check = courseName.containsKey("ab003");
+        System.out.println(check);
+
+
+        courseName.put("ab002", "Security");
+        System.out.println(courseName);
+
+        courseName.remove("ab004");
+        System.out.println(courseName);
 }}
 
