@@ -21,7 +21,10 @@ public class EmployeeMapDemo {
         System.out.println(employeeNames);
 
         employeeNames.remove(005);
-        System.out.println(check);
+        System.out.println(employeeNames);
+
+        System.out.println(employeeNames.size());
+
 
 
 }}
