@@ -12,6 +12,22 @@ public class CourseTrainerDemo {
         courseName.put("DM", "Anfal");
         System.out.println(courseName);
 
+        String find = courseName.get("IT");
+        System.out.println(find);
+
+        boolean check = courseName.containsKey("SW");
+        System.out.println(check);
+
+
+        courseName.put("HR", "Nora");
+        System.out.println(courseName);
+
+        courseName.remove("NW");
+        System.out.println(courseName);
+
+
+
+
 
     }
 }
