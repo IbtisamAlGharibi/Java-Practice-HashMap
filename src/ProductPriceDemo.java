@@ -20,6 +20,9 @@ public class ProductPriceDemo {
         productNames.put("prod5", 4.4);
         System.out.println(productNames);
 
+        productNames.remove("prod3");
+        System.out.println(productNames);
+        System.out.println(productNames.size());
 
 
 
