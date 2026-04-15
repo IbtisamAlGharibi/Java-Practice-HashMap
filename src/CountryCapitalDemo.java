@@ -12,6 +12,17 @@ public class CountryCapitalDemo {
         countryNames.put("UAE", "Dubai");
         System.out.println(countryNames);
 
+        String first = countryNames.get("Oman");
+        System.out.println(first);
+
+        boolean check = countryNames.containsKey("Qatar");
+        System.out.println(check);
+
+        countryNames.put("Oman", "Nizwa");
+        System.out.println(countryNames);
+
+
+
 
     }
 }
