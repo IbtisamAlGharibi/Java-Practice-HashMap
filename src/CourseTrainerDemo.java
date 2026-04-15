@@ -26,6 +26,7 @@ public class CourseTrainerDemo {
         System.out.println(courseName);
 
 
+        System.out.println(courseName.size());
 
 
 
