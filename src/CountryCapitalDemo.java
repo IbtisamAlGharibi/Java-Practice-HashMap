@@ -21,6 +21,8 @@ public class CountryCapitalDemo {
         countryNames.put("Oman", "Nizwa");
         System.out.println(countryNames);
 
+        countryNames.remove("Eygpt");
+        System.out.println(countryNames.size());
 
 
 
