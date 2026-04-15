@@ -11,6 +11,19 @@ public class EmployeeMapDemo {
         employeeNames.put(005, "Muna");
         System.out.println(employeeNames);
 
+        String find = employeeNames.get(001);
+        System.out.println(find);
+
+        boolean check = employeeNames.containsKey(003);
+        System.out.println(check);
+
+        employeeNames.put(002, "Nora");
+        System.out.println(employeeNames);
+
+        employeeNames.remove(005);
+        System.out.println(check);
+
+
 }}
 
 
