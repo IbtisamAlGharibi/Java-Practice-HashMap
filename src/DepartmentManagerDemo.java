@@ -11,4 +11,18 @@ public class DepartmentManagerDemo {
         deptName.put("EN", "Manar");
         deptName.put("SW", "Rahaf");
         System.out.println(deptName);
-}
+
+        String find = deptName.get("IT");
+        System.out.println(find);
+
+        boolean check = deptName.containsKey("DM");
+        System.out.println(check);
+
+
+        deptName.put("EN", "Anfal");
+        System.out.println(deptName);
+
+        deptName.remove("SW");
+        System.out.println(deptName);
+
+}}
