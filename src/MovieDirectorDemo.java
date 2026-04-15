@@ -24,5 +24,6 @@ public class MovieDirectorDemo {
         movieNames.remove("The giver");
         System.out.println(check);
 
+        System.out.println(movieNames.size());
     }
 }
