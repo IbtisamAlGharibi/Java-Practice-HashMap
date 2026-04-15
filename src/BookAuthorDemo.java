@@ -11,6 +11,20 @@ public class BookAuthorDemo {
         books.put("The Golden Rose", "Rosaline");
         System.out.println(books);
 
+        String find = books.get("Matilda");
+        System.out.println(find);
+
+        boolean check = books.containsKey("Harry Potter");
+        System.out.println(check);
+
+        books.put("The giver", "Jimi");
+        System.out.println(books);
+
+        books.remove("The giver");
+        System.out.println(check);
+
+
+
 
 
     }
