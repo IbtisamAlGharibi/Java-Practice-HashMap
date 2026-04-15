@@ -14,6 +14,12 @@ public class ProductPriceDemo {
         Double first = productNames.get("prod2");
         System.out.println(first);
 
+        boolean check = productNames.containsKey("prod4");
+        System.out.println(check);
+
+        productNames.put("prod5", 4.4);
+        System.out.println(productNames);
+
 
 
 
