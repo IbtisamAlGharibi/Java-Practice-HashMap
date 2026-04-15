@@ -12,6 +12,13 @@ public class StudentMarksDemo {
         studentMarks.put(005, 90);
         System.out.println(studentMarks);
 
+        int first = studentMarks.get(001);
+        boolean find = studentMarks.containsKey(003);
+        System.out.println(find);
+
+
+
+
 
     }
 }
