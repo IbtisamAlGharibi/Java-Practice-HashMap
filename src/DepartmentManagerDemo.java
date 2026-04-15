@@ -25,4 +25,6 @@ public class DepartmentManagerDemo {
         deptName.remove("SW");
         System.out.println(deptName);
 
+        System.out.println(deptName.size());
+
 }}
